@@ -1,0 +1,12 @@
+.container {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  .ajuste{
+    justify-content: flex-start;
+  }

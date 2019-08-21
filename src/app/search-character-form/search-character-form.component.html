@@ -1,0 +1,31 @@
+<!-- Search bar simples -->
+<div fxFlex fxLayout="container">
+    <div fxLayout="row wrap">
+     
+      <div fxFlex="25" fxFlex.md="33" fxFle.sm="50" fxFlex.xs="100" fxLayout="column">
+      <form submit="handleSearch()">
+            
+        <mat-form-field appearance="outline" class="ajuste">
+                <mat-label>Pesquisar</mat-label>
+                <input matInput placeholder="Pesquisar" type="search" > 
+                 <!--botão de pesquisa onde vamos chamar nossa função handleSearch-->
+                <button fxFlex mat-flat-button color="primary">
+                        <mat-icon aria-hidden="false" aria-label="search icon">search</mat-icon>
+                </button>
+                
+            
+                  
+             <!--   <input type="search" [(ngModel)]="searchCharacter" placeholder="{{character.name}}">
+                <ul *ngFor="let character of characters | filter: searchCharacter">
+                        <li>{{character.name}}</li>
+                        </ul> -->
+      
+       </mat-form-field>
+       </form>
+       </div>
+    </div>
+  
+</div>
+
+
+
